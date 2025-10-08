@@ -42,7 +42,7 @@ pipeline {
   }
   post {
     success {
-      echo 'Deployed. Open http://localhost:8081'
+      echo 'Deployed. Open http://localhost:8082'
     }
   }
 }

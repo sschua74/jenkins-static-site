@@ -15,7 +15,7 @@ services:
     image: nginx:alpine
     container_name: web
     ports:
-      - "8081:80"
+      - "8082:80"
     volumes:
       - web_content:/usr/share/nginx/html:ro
     restart: unless-stopped

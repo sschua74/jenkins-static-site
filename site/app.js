@@ -3,5 +3,5 @@ const msg = document.getElementById('msg');
 
 button.addEventListener('click', () => {
     const now = new Date().toLocaleString();
-    msg.textContent = `Hello from Jenkins! (${now})`;
+    msg.textContent = `Hello from Jenkins! For CI/CD Assignment (${now})`;
 });
